@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <!-- Theme -->
+   <style
+      name="ReferralTester"
+      parent="@android:style/Theme.Light">
+      <item
+         name="android:windowNoTitle">true</item>
+      <item
+         name="android:windowContentOverlay">@null</item>
+   </style>
+   <!-- Generic styles -->
+   <style
+      name="Fill">
+      <item
+         name="android:layout_width">fill_parent</item>
+      <item
+         name="android:layout_height">fill_parent</item>
+   </style>
+   <style
+      name="Fill.VerticalOrientation">
+      <item
+         name="android:orientation">vertical</item>
+   </style>
+   <style
+      name="FillHorizontaly">
+      <item
+         name="android:layout_width">fill_parent</item>
+      <item
+         name="android:layout_height">wrap_content</item>
+   </style>
+   <style
+      name="FillHorizontaly.VerticalOrientation">
+      <item
+         name="android:orientation">vertical</item>
+   </style>
+   <style
+      name="Wrap">
+      <item
+         name="android:layout_width">wrap_content</item>
+      <item
+         name="android:layout_height">wrap_content</item>
+   </style>
+   <style
+      name="Wrap.ButtonText">
+      <item
+         name="android:textColor">#ffffff</item>
+      <item
+         name="android:gravity">center</item>
+      <item
+         name="android:textSize">12dp</item>
+      <item
+         name="android:textStyle">bold</item>
+      <item
+         name="android:shadowColor">#000000</item>
+      <item
+         name="android:shadowDx">1</item>
+      <item
+         name="android:shadowDy">1</item>
+      <item
+         name="android:shadowRadius">2</item>
+   </style>
+</resources>

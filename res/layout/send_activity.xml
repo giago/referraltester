@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:a="http://schemas.android.com/apk/res/android" a:orientation="vertical" style="@style/Fill">
+<include layout="@layout/action_bar" />
+<ScrollView  style="@style/Fill">
+<LinearLayout a:orientation="vertical" style="@style/Fill">
+    <EditText a:id="@+id/package_name" style="@style/FillHorizontaly" a:layout_margin="2dp" a:hint="Package Name*" />
+    <EditText a:id="@+id/campaign_source" style="@style/FillHorizontaly" a:layout_margin="2dp" a:hint="Campaign Source*" />
+    <EditText a:id="@+id/campaign_medium" style="@style/FillHorizontaly" a:layout_margin="2dp" a:hint="Campaign Medium*" />
+    <EditText a:id="@+id/campaign_term" style="@style/FillHorizontaly" a:layout_margin="2dp" a:hint="Campaign Term" />
+    <EditText a:id="@+id/campaign_content" style="@style/FillHorizontaly" a:layout_margin="2dp" a:hint="Campaign Content" />
+    <EditText a:id="@+id/campaign_name" style="@style/FillHorizontaly" a:layout_margin="2dp" a:hint="Campaign Name*" />
+	<Button a:id="@+id/send" style="@style/FillHorizontaly" a:text="Send broadcast" />
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

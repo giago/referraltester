@@ -1,0 +1,13 @@
+*/**/bin
+*/bin
+*/gen
+*/**/gen
+*.class
+*.dex
+*.apk
+*/**/*DSStore
+*~
+*/**/target/
+*/target/
+.checkstyle
+*/**/.checkstyle

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+	xmlns:a="http://schemas.android.com/apk/res/android">
+	<LinearLayout
+		a:layout_width="fill_parent"
+		a:layout_height="40dp"
+		a:background="@drawable/bg_header"
+		a:gravity="center_vertical">
+		<TextView
+			a:layout_width="wrap_content"
+			a:layout_height="60dp"
+			a:layout_weight="9"
+			a:textColor="#FFFFFF"
+			a:textStyle="bold"
+			a:textSize="14dp"
+			a:text="Referral Tester"
+			a:gravity="center"
+			a:paddingLeft="5dp" />
+	</LinearLayout>
+</merge>

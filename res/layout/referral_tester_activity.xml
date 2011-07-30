@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:a="http://schemas.android.com/apk/res/android" a:orientation="vertical" style="@style/Fill">
+<include layout="@layout/action_bar" />
+<ScrollView  style="@style/Fill">
+<LinearLayout a:orientation="vertical" style="@style/Fill">
+	<TextView style="@style/FillHorizontaly" a:text="@string/description1" a:layout_margin="5dp" />
+	<TextView style="@style/FillHorizontaly" a:text="@string/description2" a:layout_margin="5dp" />
+	<TextView style="@style/FillHorizontaly" a:text="@string/description3" a:layout_margin="5dp" />
+	<TextView style="@style/FillHorizontaly" a:text="@string/description4" a:layout_margin="5dp" />
+	<TextView style="@style/FillHorizontaly" a:text="@string/description5" a:layout_margin="5dp" />
+	<Button a:id="@+id/scan_url_btn" style="@style/FillHorizontaly" a:text="Scan url" a:layout_margin="5dp" />
+	<Button a:id="@+id/manual_url_btn" style="@style/FillHorizontaly" a:text="Manual url generation" a:layout_margin="5dp" />
+	<Button a:id="@+id/read_more_btn" style="@style/FillHorizontaly" a:text="Read more" a:layout_margin="5dp" />
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Referral Tester</string>
+    <string name="description1">This is an utility tool to make the testing of the analytics referral tracking easier.</string>
+    <string name="description2">There are two ways to use the app :</string>
+    <string name="description3">1. You can scan your referral url from the google analytics sdk documentation.</string>
+    <string name="description4">2. You can manually enter the fields.</string>
+    <string name="description5">It is better if you clean the data of the app under test before sending the broadcast.</string>
+</resources>
